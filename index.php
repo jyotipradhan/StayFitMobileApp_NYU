@@ -1,5 +1,5 @@
 <?php
-
+require_once("Mail.php");
 require( "config.php" );
 session_start();
 $action = isset( $_GET['action'] ) ? $_GET['action'] : "";
